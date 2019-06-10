@@ -1,0 +1,453 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <string name="About">About</string>
+    <string name="rollno">Rollno :</string>
+
+
+    <string-array name="Main">
+        <item> Timetable </item>
+        <item> Subjects </item>
+        <item> Faculty </item>
+        <item> Resources </item>
+        <item> Calender of events </item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> Gives info about classes and timings alloted for each class. </item>
+        <item> Gives Brief syllabus of Every Subject. </item>
+        <item> Gives the details about teachers.</item>
+        <item> Get all the study materials,extra information. </item>
+        <item> Helps to schedule your palns for current semester. </item>
+    </string-array>
+    <string-array name="Week">
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+    </string-array>
+
+    <string-array name="Monday">
+        <item>Mobile Adhoc Networks </item>
+        <item>Compiler Design</item>
+        <item>Tea Break</item>
+        <item>Computer Graphics and Visualization</item>
+        <item>Management and Entrepreneurship</item>
+        <item>Lunch Break</item>
+        <item>Batch A1-Computer graphics Lab/Batch A2-WebTechnologies Lab</item>
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item>Unix shell programming</item>
+        <item>Web Technologies</item>
+        <item>Tea Break</item>
+        <item>Management and Entrepreneurship</item>
+        <item>Computer Graphics and Visualization</item>
+        <item>Lunch Break</item>
+        <item>Compiler Design</item>
+        <item>Mobile Adhoc Networks </item>
+
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item>Batch A2-Computer graphics Lab/Batch A3-WebTechnologies Lab</item>
+        <item>Web Technologies</item>
+        <item>Lunch Break</item>
+        <item>Mobile Adhoc Networks</item>
+        <item>Management and Entrepreneurship</item>
+        <item>Compiler Design</item>
+
+    </string-array>
+
+    <string-array name="Thursday">
+        <item>Management and Entrepreneurship</item>
+        <item>Mobile Adhoc Networks</item>
+        <item>Tea Break</item>
+        <item>Unix shell programming</item>
+        <item>Compiler Design</item>
+        <item>Lunch Break</item>
+        <item>Web Technologies</item>
+    </string-array>
+
+    <string-array name="Friday">
+        <item>Placement Training</item>
+        <item>Tea Break</item>
+        <item>Computer Graphics and Visualization</item>
+        <item>Unix shell programming</item>
+        <item>Lunch Break</item>
+        <item>Batch A3-Computer graphics Lab/Batch A1-WebTechnologies Lab</item>
+
+
+    </string-array>
+
+    <string-array name="Saturday">
+        <item>No classes Today</item>
+
+    </string-array>
+
+    <string-array name="time1">
+        <item>9:00AM-9:55AM </item>
+        <item>9:55AM-10:50AM</item>
+        <item>10:50AM-11:10AM</item>
+        <item>11:10AM-12:05PM</item>
+        <item>12:05PM-1:00PM</item>
+        <item>1:00PM-1:45PM</item>
+        <item>1:45PM-4:30PM</item>
+    </string-array>
+
+    <string-array name="time2">
+
+        <item>9:00AM-9:55AM </item>
+        <item>9:55AM-10:50AM</item>
+        <item>10:50AM-11:10AM</item>
+        <item>11:10AM-12:05PM</item>
+        <item>12:05PM-1:00PM</item>
+        <item>1:00PM-1:45PM</item>
+        <item>1:45PM-2:40PM</item>
+        <item>2:40PM-3:35PM</item>
+    </string-array>
+
+    <string-array name="time3">
+        <item>9:OOAM-12:05PM</item>
+        <item>12:05PM-1:00PM</item>
+        <item>1:00PM-1:45PM</item>
+        <item>1:45PM-2:40PM</item>
+        <item>2:40PM-3:35PM</item>
+        <item>3:35PM-4:300M</item>
+
+    </string-array>
+
+    <string-array name="time4">
+        <item>9:00AM-9:55AM </item>
+        <item>9:55AM-10:50AM</item>
+        <item>10:50AM-11:10AM</item>
+        <item>11:10AM-12:05PM</item>
+        <item>12:05PM-1:00PM</item>
+        <item>1:00PM-1:45PM</item>
+        <item>1:45PM-2:40PM</item>
+    </string-array>
+
+    <string-array name="time5">
+        <item>9:00AM-10:50AM </item>
+        <item>10:50AM-11:10AM</item>
+        <item>11:10AM-12:05PM</item>
+        <item>12:05PM-1:00PM</item>
+        <item>1:00PM-1:45PM</item>
+        <item>1:45PM-4:30PM</item>
+    </string-array>
+
+    <string-array name="time6">
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="Subjects">
+        <item>Mobile Adhoc Networks</item>
+        <item>Compiler Design</item>
+        <item>Management and Entrepreneurship</item>
+        <item>Web Technologies</item>
+        <item>Unix shell programming</item>
+        <item>Computer Graphics and Visualization</item>
+        <item>Computer graphics Laboratory</item>
+        <item>WebTechnologies Laboratory</item>
+
+    </string-array>
+
+
+    <string-array name="networks">
+
+        <item>1.Adhoc wireless network :-Introduction,-Cellular and AdHoc Wireless Networks,Applications.Issues in Ad hoc
+                wireless networks- Medium access, routing, multi casting,transport layer, pricing, Quality of service, self organization,security, addressing, energy management,
+                scalability,deployment. Ad hoc wireless internet.</item>
+
+
+        <item>2. MAC: MAC Protocols for Ad hoc wireless Networks:-Introduction, Issues in designing a MAC protocol for Ad hoc wireless Networks,
+            Design goals of a MAC protocol for Ad hoc wireless Networks, Classification of MAC protocols, Contentionbased protocols(MACAW,MACA-Bl,MARCH).\n\n
+            2b) MAC: Contention based protocols with reservation mechanisms(D-PRMA, CATA, RTMAC). Contention-based MAC protocols
+            with scheduling mechanism (DPS, DWOP), MAC protocols that use directional antennas.</item>
+
+
+        <item>3.Routing- Routing protocols for Ad hoc wireless Networks:Introduction, Issues in designing a routing protocol for Ad hocwireless Networks,
+
+            (TCP-F,TCP-BUS,ATCPSPLIT TCP)</item>
+
+
+        <item>4.Transport Layer: Transport layer protocols for Ad hoc wireless networks: Introduction, Issues in designing a transport layer protocol for Ad hoc wireless Networks,
+        Design goals of a transport layer protocol for Ad hoc wireless Networks Classification of transport layer solutions, TCP over Ad hoc wireless Networks
+            Classification of routing protocols, Table driven routing protocols (DSDV,WRP,CGSR), On-demand routing protocols (DSR,AODV,TORA) Routing:-Hybrid routing protocol,
+            Routing protocols with effective flooding mechanisms, Hierarchical routing protocols, Power aware routing protocols</item>
+
+
+        <item>5.QoS: Quality of service in Ad hoc wireless Networks:-Introduction, Issues and challenges in providing Qos in Ad hoc wireless Networks, Classification of QoS solutions, MAC
+             layer solutions(cluster TDMA), network layer solutions (Ticketbased, TDR, QoS enabled AODV, OQR)</item>
+
+
+        <item>Text Book:1. C. Siva Ram Murthy and B. S. Manoj, Ad hoc Wireless NetworksArchitectures and Protocols,\nISBN: 978 81 317 0688 6, 2014</item>
+
+
+        <item>Reference Books1. Stefano Basagni, Marco Conti, Silvia Giordano, and Ivan Stojmenovic,Mobile ad hoc networking ,\nISBN: 978-0-471-65688-3,2010\n\n
+            2. C.K. Toh: Adhoc Mobile Wireless Networks- Protocols and Systems,Prentice-Hall PTR,\nISBN:0130078174,2007 \n\n
+            3. Jonathan Loo, Jaime Lloret Mauri and Jesús Hamilton Ortiz, Mobile adhoc networks: current status and future trends, Kindle edition,\n
+            ISBN 9781439856505-CATW K 12654, 2011</item>
+    </string-array>
+
+
+    <string-array name="compiler_design">
+        <item>Introduction: Language Processors, The Structure of a Compiler, The Evolution of Programming Languages, The Science of Building a Compiler, Applications of Compiler
+                  Technology, Programming Language Basics.</item>
+        <item>Lexical Analysis: The Role Of Lexical Analyzer, Input Buffering,Specifications Of Tokens, Recognition Of Tokens\n\nSyntax Analysis: Introduction, Context Free Grammars.</item>
+
+        <item>Syntax Analysis: Writing a Grammar, Top Down Parsing.Bottom Up Parsing.</item>
+
+
+        <item>Syntax Analysis: Introduction to LR Parsing, Simple LR Parser, More Powerful LR Parsers, Using Ambiguous Grammars.\n\nSyntax-Directed Translation: Syntax-Directed Definitions
+                   Evaluation Order for SDDs, Application of Syntax Directed Translation, Syntax Directed Translation Schemes</item>
+
+        <item> Run-Time Environments: Storage Organization, Storage Allocation of Space, Access to Non Local Data on the Stack,Heap Management, Introduction to Garbage Collection.\n\n
+                5b.Code Generation: Issues In The Design Of Code Generator,The Target Language, Addresses in the Target Code, Basic Blocks And Flow Graphs, Next-Use Information, A Simple
+                Code Generator.</item>
+
+        <item>Alfred W Aho, Monica S Lam, Ravi Sethi, and Jeffrey D Ullman, "Compilers- Principles, Techniques and Tools"\nPublisher: Pearson Education; Second edition (1 January 2011),
+		       \nISBN-10: 8131759024,ISBN-13: 978-8131759028</item>
+
+        <item>REFERENCE BOOKS 1. Andrew W Apple, "Modern Compiler Implementation in C",Cambridge University Press, 1997,\n
+		       2. Kenneth C Louden, "Compiler Construction Principles and Practice" Thomson Education, 1997.\n3. Charles N Fischer, Richard leBlanc, Jr, "Crafting a Compiler with C"
+               Pearson Education, 1991</item>
+    </string-array>
+
+
+    <string-array name="management">
+        <item>Since mobile phones are popular with students and can be used in all walks of life, we have attempted to create an
+        </item>
+
+        <item>Although there are many mobile platforms available in the market these days,
+		</item>
+
+        <item>Since mobile phones are popular with students and can be used in all walks of life, we have attempted to create an
+        </item>
+
+
+        <item> Androidis an Operating System supporting a large number of applications in smart phones.
+        </item>
+
+        <item>One such application that we arediscussing here in the paper is the Academic Scheduler.
+        </item>
+
+        <item>the student itself and should have the application installed
+		on the smartphone/android device. In our project
+		</item>
+
+        <item>The Admin module provide the time tables of Student and teachers from the admin side and the staff and student can access thair time table seperatly.
+	     </item>
+
+
+    </string-array>
+
+    <string-array name="webtechnologies">
+       <item>Fundamentals of Web, XHTML-1: Internet,WWW, Web Browsers and Web Servers, URLs, MIME, HTTP, Security The Web Programmers Toolbox.\nXHTML: Basic syntax
+                Standard structure, Basic text markup, Images, Hypertet Links.\nXHTML: Basic syntax, Standard strueture, Basic text
+                markup, Images, Hypertext Links</item>
+
+        <item>XHTML -2, CSS: Lists, Tables, Forms, Frames css:Introduction, Levels of style sheets, Style specification formats Selector forms, Property value forms,
+      	            Font properties, List properties, Color, Alignment of text, The box model, Background images, The span and devtags, Conflict resolution</item>
+
+        <item>JavaScript: Overview of JavaScript, Object orientation and JavaScript, Syntactic characteristics, Primitives, operations and expressions, Screen output and keyboard input,
+		          Control statments, Object crcation and modification, Arrays Functions, Constructors, Pattern matching using regular expressions, Errors in scripts, Examples.</item>
+
+        <item>JavaScript and DHTML Documents: JavaScript and HTML Documents, Dynamic Documents with JavaScript: The Java script execution environment, The Document Object Model
+            Element access in JavaScript, Events and event handling,Handling events from the Body elements, Button elements,Text box and Password elements, The DOM 2 event model
+            The navigator object, DOM tree traversal and modification.\n\nDynamic Documents with JavaScript: Introductiont to dynamic documents, Positioning elements,Moving clements Element visibility, Changing colors and fonts, Dynamic content,
+            Stacking elements, Locating the mouse cursor, Reacting to a mouse click, Slow movement of elements, Dragging and dropping elements\n\n
+            XML: Introduction, Syntax, Document structure, Document Type definitions, Namespaces, XML schemas, Displaying raw XML documents, Displaying XML documents with CSS, XSLT
+            style sheets, XML processors, Web services.</item>
+
+        <item>PHP: Origins and uses of PHP, Overview of PHP, General syntactic characteristics, Primitives, operations and expressions, Output, Control statements, Arrays, Functions, Pattern matching
+                     Form handling, Files, Cookies, Session tracking. Database Access: Relational databases, Architectures for database access, MySQL, Database access with PHP and MySQL</item>
+
+        <item>Text Book: 1. Robert W. Sebesta: Programming the World Wide Web, 4th edition,Pearson education, 2012\nPublisher: Pearson Education; Second edition (I January 2011)\n
+                  ISBN-10: 8131759024,ISBN-13: 978-8131759028</item>
+        <item>Reference Books:-1. M. Deitel, P.J. Deitel, A. B. Goldberg: Internet and World Wide Web How to H program, 4th Edition, Pearson education, 2011\n
+                2. Chris Bates: Web Programming Building Internet Applications,3rd Edition, Wiley India, 2011\n
+                3. Joyce Farrell, Xue Bai, Michael Ekedahl: The Web Warrior Guide to Web Programming, First edition, Thomson, 2010.\nWeb Links: http://www.w3schools.com
+       </item>
+    </string-array>
+
+
+    <string-array name="unixshellprograming">
+        <item> INTRODUCTION: The POSIX Standards, The POSIX.1 FIPs Standard,UNIX Files: File Types, The UNIX anI FieSystem,The UNIX and POSIX File Attributes, Inodes inUNIX System V,
+                Application Program Interface to FilesUNIX Kernel Support for Files, Relationship of C Stream Pointers and File Descriptors, Directory Files, Hard and Symbolic Links.</item>
+        <item>
+            UNIX File APIs: General File APIls, File and Record Locking,Directory File APIs, Device File APIs, FIFO File APIs, Symbolic Link File APls.</item>
+
+        <item>
+		    UNIX Processes: The Environment of a UNIX Process:Introduction, main function, Process Termination, Commands Line Arguments, Environment List, Memory Layout of a C
+            Program, Shared Libraries, Memory Allocation, Environment Variables, setjmp and longjmp Functions, getrlimit, setrlimit
+            Functions, UNIX Kernel Support for Processes.</item>
+        <item>Process Control: Introduction, Process Identifiers, fork, vfork, exit, Zombie process,wait, waitpid, wait3, wait4 Functions Race Conditions,
+		    exec Functions, Interpreter Files, system Function.</item>
+        <item>Process Relationships: Introduction, Terminal Logins, Network Logins, Process Groups, Sessions, Controlling Terminal, Job control, Orphaned Process Groups.\n\n
+            Interprocess Communication : Overview of IPC Methods, Pipes, popen, pclose Functions, FIFOs, Message Queues.</item>
+
+        <item>1.Terrence Chan: UNIX System Programming Using  c++,Prentice Hall India,1999.(Chapters 1, 5, 6, 7, 8, 9, 10).\n
+            2. W.Richard Stevens: Advanced Programming in the UNIX Environment,2nd edition, Pearson Education, 2005.(Chapters 7, 3, 9, 13, 14, 15).</item>
+
+        <item>1. Marc J. Rochkind: Advanced UNIX Programming, 2nd Edition Education, 2005\n
+              2. Maurice J Bach: The Design of the UNIX Operating System Pearson Education, 1987\n
+              3. Uresh Vahalia: UNIX Internals: The New Frontiers, Pearson Education,2001</item>
+
+    </string-array>
+
+    <string-array name="computergraphics">
+        <item>Introduction: Applications of computer grphics; A graphics system; Images: Physical and synthetic; Imaging Systems The synthetic camera model; The programmers interface;
+          Graphics architectures; Programmable Pipelines; Performance Characteristics Graphics Programming: The Sierpinski gasket Programming Two Dimensional Applications.</item>
+
+        <item>The Open GL: The Open GL API; Primitives and attributes; Color; Viewing; Control functions; The Gasket program; Polygons and recursion; The three-dimensional gasket;
+	         Plotting Implicit Functions.\n\n 2b.Input and Interaction: Interaction; Input devices; Clients and Servers; Display Lists, Programming Event Driven Input; Menus;Animating Interactive Programs;
+	           Design of Interactive Programs,Logic Operations</item>
+
+        <item>Geometric Objects and Transformations: Scalars, Points,and Vectors; 3-D Primitives; Coordinate Systems and Frames Modeling a Colored Cube; Affine Transformations; Rotation,
+           Translation and Scaling; Geometric Objects and Transformations; Transformation in Homogeneous Coordinates; Concatenation of Transformations; Open GL  Transformation Matrices.</item>
+
+        <item>Implementation: Basic Implementation Strategies, Four major tasks; Clipping; Line-segment clipping; Polygon clipping Rasterization;Bresenhams algorithm;
+	       Hidden-surface removal.\n\n 4b.Viewing: Classical and computer viewing; Viewing with a Computer; Positioning of the camera; Simple projections Projections in OpenGL;
+	         Parallel-projection matrices Perspective-projection matrices;</item>
+
+        <item>Lighting and Shading: Light and Matter; Light Sources; The Phong Lighting model; Polygonal Shading; Light sources in OpenGL; Specification of materials in OpenGL</item>
+
+        <item>Text Book:1. Edward Angel: Interactive Computer Graphics A Top-Down Approach with OpenGL, 5th Edition, Pearson Education, 2013.\n1SBN-13: 9788131797259</item>
+
+        <item>Reference Books 1. Donald Hearm, Pauline Baker and Warren Carithers: Computer Graphics with OpenGL, 4th Edition, Pearson Education, 2015.\nISBN-13: 9789332518711\n
+	        2. F.S. Hill Ir: Computer Graphics Using OpenGL, 3rd Edition, Pearson education, 2013. ISBN-13: 9780131496705</item>
+    </string-array>
+
+    <string-array name="cgvlab">
+        <item>1a. Program to implement a FLYING KITE\n1b. Create 2D Sierpinski gasket by recursive subdivision of triangle.\n\n
+          2a. Write a program to rotate a square. Rotate on mouse left-buttonclicks. On right click, stop rotation\n
+          2b. Create 3D Sierpinski gasket by recursive subdivision of tetrahedron.</item>
+
+        <item>3a. Write a program to handle mouse events. Plot points in random colors by pressing the mouse left button. The display window must be cleared when
+           you press the mouse right button.\n3b. Write a program to demonstrate the usage of display lists. The list
+                  should define various geometric objects like square, rectangle, triangle.</item>
+
+        <item>4a. Write a program to create a font for the letter S of user input thickness\n4b. Write a program to perform rotation of a cube using vertex arrays.\n\n
+            5a. Write a program to create a font for the letter O of user input thickness.\n5b. Write a program to draw a color cube and allow the user to move the
+             camera suitably to experiment with perspective viewing.</item>
+
+        <item>6a. Write a program to create a chessboard.\n6b. Write a program, using OpenGL functions, to demonstrate propertiesof the light source along with properties of the surfaces of the solid
+             object.\n\n7a. Write a program to create a rotating wheel.\n7b. Write a program to draw a square. Use popup menu with options to quit or resize the square. The resize option has submenu with increase
+             size and decrease size as options. The increase size must double the size of the square and the decrease size option must reduce the size
+             by 2. (half size)</item>
+
+        <item>8a. Write a program to display a hierarchical menu as below using popup menu. When an option is selected, display the option on output window
+           View__normal |_print |_web,Edit__cut|_copy |_paste.\n8b. Write a program to create a house like figure and rotate it about a
+           given fixed point using OpenGL functions.</item>
+
+        <item>Not mentioned</item>
+
+        <item>Not mentioned</item>
+
+
+    </string-array>
+
+
+    <string-array name="wtlab">
+        <item>1.Develop and demonstrate a XHTML document that illustrates the use external style sheet, ordered list, table, borders, padding, color, thes (span)and(Divo) tag.\n\n
+              2.Develop and demonstrate a XHTML. file that includes JavaScript script for the following problems:\nInput : number n obtained using prompt.Output: The first n Fibonacci numbers\n\n
+			  b) Input : A number n obtained using prompt.Output: table of numbers from I to n and their squares using alert.</item>
+
+        <item>3. Develop and demonstrate a XHTML file that includes JavaScript script that uses functions for the following problems:\na) Parameter: A string.Output: The position in the string of the left-most vowel\n
+               b) Parameter: A number.Output: The number with its digits in the reverse order.\n\n
+               4. a) Develop and demonstrate, using JavaScript script, a XHTML document that collects the USN ( the valid format is: A digit from 1 to 4 followed by two upper-case characters followed by
+               two digits followed by two upper-case characters followed by three digits; no embedded spaces allowed) of the user. Event
+               handler must be included for the form element that collects this information to validate the input. Messages in the alert windows
+                must be produced when errors are detected.\nb) Modify the above program to get the current semester also (restricted to be a number from 1 to 8)</item>
+
+        <item>5. a) Develop and demonstrate, using JavaScript script, a XHTML document that contains three short paragraphs of text, stacked on top of each other, with only enough of each showing so that the mouse
+                 cursor can be placed over some part of them. When the cursor is placed over the exposed part of any paragraph, it should rise to the top
+                  to become completely visible.\nb) Modify the above document so that when a paragraph is moved from
+                  the top stacking position, it returns to its original position rather than to the bottom.\n\n
+               6. Develop and demonstrate, using JavaScript script, a XHTML document which that collects the Password (the valid format is: 7 to 16 characters
+                  contain only characters, numeric digits, underscore and first character must be a letter, no embedded space is allowed) of the user. Event handler must be included for the form element that collects this
+                  information to validate the input. Messages in the alert windows must be produced when errors are detected.</item>
+
+        <item>7. a) Design an XML document to store information about a student in Dr.AIT. The information must include USN, Name, Branch, Year of
+                  Joining, and e-mail id. Make up sample data for 5 students. Create a CSS style sheet and use it to display the document</item>
+
+        <item>8 a) Write a PHP program to store current date-time in a COOKIE and the web page upon display the Last visited on date-time on reopening of the same page.\n
+              8 b.Write a PHP program to store page views count in SESSION, to on web page increment the count on each refresh, and to show the count  on the webpage.\n\n
+            9. Create a XHTML form with Name, Address Line I, Address Line 2, and E-mail text fields. On submitting, store the values in MySQL table.
+            Retrieve and display the data based on Name. (using php).</item>
+
+        <item>Not mentioned</item>
+
+        <item>Not mentioned</item>
+
+    </string-array>
+
+    <string-array name="titles">
+        <item>Unit-1</item>
+        <item>Unit-2</item>
+        <item>Unit-3</item>
+        <item>Unit-4</item>
+        <item>Unit-5</item>
+        <item>TEXT BOOK</item>
+        <item>Reference books</item>
+
+
+    </string-array>
+
+
+    <string-array name="Faculty">
+
+        <item>Harish.G</item>
+        <item>Praveena.M.V</item>
+        <item>Harishkumar.H.C</item>
+        <item>Vinodkumar.K.P</item>
+        <item>Madhu.B</item>
+        <item>Shylaja.K.R</item>
+
+
+    </string-array>
+
+
+    <string-array name="harishg">
+        <item>Name :Harish.G\nDesignation :Asst.Prof.\nQualification :M.Tech\nRoom_No :xyz</item>
+    </string-array>
+
+    <string-array name="praveen">
+        <item>Name :Praveena.M.V\nDesignation :Programmer\nQualification :M.Tech\nRoom_No :xyz</item>
+    </string-array>
+
+    <string-array name="harishkumar">
+        <item>Name :Harishkumar.H.C\nDesignation :Asst.Prof.\nQualification :M.Tech\nRoom_No :xyz</item>
+    </string-array>
+    <string-array name="vinodkumar">
+        <item>Name :Vinodkumar.K.P\nDesignation :Asst.Prof.\nQualification :M.Tech\nRoom_No :xyz</item>
+    </string-array>
+
+    <string-array name="madhu">
+        <item>Name :Madhu.B\nDesignation :Asst.Prof.\nQualification :M.Tech\nRoom_No :xyz</item>
+    </string-array>
+
+    <string-array name="shylaja">
+        <item>Name :Shylaja.K.R\nDesignation :Asso.Prof.\nQualification :M.Tech\nRoom_No :xyz</item>
+    </string-array>
+
+
+    <string-array name="fnames">
+        <item>faculty Details\n</item>
+
+
+    </string-array>
+
+
+
+    <string name="resources">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020Click the below link to get notes and  related stuff....</string>
+
+    <string name="linktodownload">
+        <a href="https://tinyurl.com/cse-a-section-notes">\nCLICK HERE TO DOWNLOAD</a>
+    </string>
+</resources>

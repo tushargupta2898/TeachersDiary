@@ -1,0 +1,39 @@
+<android.support.v7.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:background="@color/Teal1"
+    android:layout_marginTop="250dp"
+    android:backgroundTint="@color/white"
+    android:elevation="4dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFacultydetailsTitle"
+            android:text="Faculty"
+            android:textStyle="bold"
+            android:textColor="@color/Teal3"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFacultydetails"
+            android:text="Facultydetails"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/tvFacultydetailsTitle" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

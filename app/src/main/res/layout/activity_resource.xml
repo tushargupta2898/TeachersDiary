@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Teal1"
+    tools:context="com.attendance.ui.activities.ResourceActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tvresources"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Teal3"
+        app:titleTextColor="@color/white">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resource"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_below="@+id/tvresources"
+        android:id="@+id/tvretext"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resources"
+        android:textSize="15dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tvretext"
+        android:id="@+id/tvscretext"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/linktodownload"
+        android:textSize="15dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="italic"
+        android:textColor="@color/lightblue"
+        android:textAlignment="center"
+        android:layout_below="@+id/tvscretext"
+        android:layout_marginTop="75dp"
+        android:id="@+id/tvdownloadtext"/>
+
+
+
+
+</RelativeLayout>

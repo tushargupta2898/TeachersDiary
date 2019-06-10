@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/attendance"
+        android:title="Attendance"/>
+
+    <item android:id="@+id/timetable"
+        android:title="Time Table"/>
+
+    <item android:id="@+id/sylabus"
+        android:title="Syllabus"/>
+
+    <item android:id="@+id/lessonplan"
+        android:title="Lesson Plan"/>
+
+    <item android:id="@+id/faculty"
+        android:title="Faculty"/>
+
+    <item android:id="@+id/resources"
+        android:title="Notes"/>
+
+    <item android:id="@+id/acadmiccalender"
+        android:title="Acadmic Calender"/>
+
+    <item android:id="@+id/about"
+        android:title="About"/>
+
+</menu>

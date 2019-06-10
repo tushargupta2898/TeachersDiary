@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/Teal1"
+    tools:context="com.attendance.ui.activities.FacultyDetails">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/Teal3"
+        android:elevation="4dp"
+        app:titleTextColor="@color/white"
+        android:id="@+id/ToolbarFacultytDetails">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/lvFacultyDetails"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/Teal1"
+        android:dividerHeight="10dp"
+        android:layout_below="@+id/ToolbarFacultytDetails"
+        android:divider="@null">
+    </ListView>
+
+</RelativeLayout>
